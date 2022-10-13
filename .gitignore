@@ -9,6 +9,10 @@ __pycache__
 # add a non-generated .c extension, use `git add -f filename.c`.
 *.c
 
+# WCSTools build files
+wcstools-*.tar.gz
+wcstools-*/
+
 # Other generated files
 */version.py
 */cython_version.py
