@@ -30,7 +30,6 @@ dependencies):
     conda create --name hstaxe_test python=3
     conda activate hstaxe_test
     conda install gsl cfitsio make automake autoconf libtool pkg-config -y
-    conda install wcstools -c https://ssb.stsci.edu/astroconda -y
     pip install hstaxe
 
 Optionally install Jupyter:

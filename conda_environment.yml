@@ -3,7 +3,6 @@
 # platform: osx-64
 @EXPLICIT
 https://repo.anaconda.com/pkgs/main/osx-64/gsl-2.4-h1de35cc_4.conda
-http://ssb.stsci.edu/astroconda/osx-64/wcstools-3.9.5-1.tar.bz2
 https://repo.anaconda.com/pkgs/main/osx-64/blas-1.0-mkl.conda
 https://repo.anaconda.com/pkgs/main/osx-64/bzip2-1.0.8-h1de35cc_0.conda
 https://repo.anaconda.com/pkgs/main/osx-64/ca-certificates-2020.12.8-hecd8cb5_0.conda

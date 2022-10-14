@@ -5,6 +5,7 @@ Bug Fixes
 ^^^^^^^^^
 
 - Input checks now properly allow interp 0. [#39]
+- build WCSTools as part of the HSTaXe build
 
 version 1.0.1 (2021-01-10)
 --------------------------
