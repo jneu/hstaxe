@@ -49,7 +49,6 @@ __pycache__
 /cextern/src/aXe_TEST
 /cextern/src/aXe_TFIT
 
-
 # Other generated files
 */version.py
 */cython_version.py
