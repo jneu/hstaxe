@@ -22,16 +22,18 @@ WCSTOOLS_URL="http://tdc-www.harvard.edu/software/wcstools/${WCSTOOLS_TARBALL}" 
 WCSTOOLS_OLD_URL="http://tdc-www.harvard.edu/software/wcstools/Old/${WCSTOOLS_TARBALL}" # archive tarball URL
 WCSTOOLS_INSTALL="wcstools-install" # install directory
 
-# download WCSTools source if necessary
-if test ! -e "$WCSTOOLS_TARBALL"; then
-    if ! curl -OfL "$WCSTOOLS_URL"; then
-        curl -OfL "$WCSTOOLS_OLD_URL"
-    fi
-fi
-
-# unpack the source if necessary
+# unpack the source (if necessary)
 if test ! -d "$WCSTOOLS_DIR"; then
+
+    # download WCSTools source (if necessary)
+    if test ! -e "$WCSTOOLS_TARBALL"; then
+        if ! curl -OfL "$WCSTOOLS_URL"; then
+            curl -OfL "$WCSTOOLS_OLD_URL"
+        fi
+    fi
+
     tar xzf "$WCSTOOLS_TARBALL"
+
 fi
 
 # build libwcs using make
