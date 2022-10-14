@@ -175,7 +175,7 @@ class BuildExtWithConfigure(install):
                            cwd=AXELIB_DIR)
                 check_call(["sh", "./configure",
                             "--with-cfitsio="+CURRENT_ENV,
-                            "--with-wcstools="+os.getcwd()+"/cextern/wcstools-install",
+                            "--with-wcstools="+os.path.join(os.getcwd(), AXELIB_DIR, "wcstools-install"),
                             "--with-gsl="+CURRENT_ENV,
                             "--libdir="+CURRENT_ENV,
                             "--prefix="+CURRENT_ENV],

@@ -21,6 +21,14 @@ htmlcov
 MANIFEST
 .ipynb_checkpoints
 notebooks/*.fits
+cextern/autom4te.cache/
+cextern/config/
+cextern/m4/
+cextern/aclocal.m4
+cextern/configure
+cextern/Makefile.in
+cextern/src/Makefile.in
+
 
 # Sphinx
 docs/api
