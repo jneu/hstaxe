@@ -34,5 +34,5 @@ make -C "${WCSTOOLS_DIR}/libwcs" libwcs.a
 
 # populate the install directories
 mkdir -p "${WCSTOOLS_INSTALL}"/{include,lib}
-ln -s -f "${WCSTOOLS_DIR}/libwcs/libwcs.a" "${WCSTOOLS_INSTALL}/lib/" &&
-ln -s -f "${WCSTOOLS_DIR}"/libwcs/{wcs,wcslib,fitshead,fitsfile}.h "${WCSTOOLS_INSTALL}/include/"
+ln -s -f "../../${WCSTOOLS_DIR}/libwcs/libwcs.a" "${WCSTOOLS_INSTALL}/lib/" &&
+ln -s -f "../../${WCSTOOLS_DIR}"/libwcs/{wcs,wcslib,fitshead,fitsfile}.h "${WCSTOOLS_INSTALL}/include/"
