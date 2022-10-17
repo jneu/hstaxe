@@ -129,6 +129,7 @@ class MyClean(Command):
 
         try:
             check_call(["make", "clean"], cwd=AXELIB_DIR)
+            check_call(["make", "-C", "wcstools", "clean"], cwd=AXELIB_DIR)
         except CalledProcessError as e:
             print(e)
             exit(1)
@@ -175,7 +176,7 @@ class BuildExtWithConfigure(install):
                            cwd=AXELIB_DIR)
                 check_call(["sh", "./configure",
                             "--with-cfitsio="+CURRENT_ENV,
-                            "--with-wcstools="+os.path.join(os.getcwd(), AXELIB_DIR, "wcstools-install"),
+                            "--with-wcstools="+os.path.join(os.getcwd(), AXELIB_DIR, "wcstools"),
                             "--with-gsl="+CURRENT_ENV,
                             "--libdir="+CURRENT_ENV,
                             "--prefix="+CURRENT_ENV],
