@@ -1,0 +1,47 @@
+# WCSTools
+/wcstools/include/
+/wcstools/lib/
+/wcstools/wcstools-?.?.?/
+/wcstools/wcstools-?.?.?.tar.gz
+
+# build artifacts - globs
+/**/*.Po
+
+# build artifacts - directories
+/autom4te.cache/
+/config/
+/m4/
+
+# build artifacts - files
+/aclocal.m4
+/config.h
+/config.log
+/config.status
+/configure
+/libtool
+/Makefile
+/Makefile.in
+/stamp-h1
+/src/Makefile
+/src/Makefile.in
+/src/aXe_AF2PET
+/src/aXe_BE
+/src/aXe_DIRIMAGE
+/src/aXe_DRZ2PET
+/src/aXe_DRZPREP
+/src/aXe_FILET
+/src/aXe_FRIGEN
+/src/aXe_FRINGECORR
+/src/aXe_GOL2AF
+/src/aXe_GPS
+/src/aXe_INTPIXCORR
+/src/aXe_NICBACK
+/src/aXe_PET2SPC
+/src/aXe_PETCONT
+/src/aXe_PETFF
+/src/aXe_PETIPC
+/src/aXe_SCALEBCK
+/src/aXe_SEX2GOL
+/src/aXe_STAMPS
+/src/aXe_TEST
+/src/aXe_TFIT

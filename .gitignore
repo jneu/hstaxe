@@ -9,46 +9,6 @@ __pycache__
 # add a non-generated .c extension, use `git add -f filename.c`.
 *.c
 
-# WCSTools and cextern build files
-/cextern/**/*.Po
-/cextern/autom4te.cache/
-/cextern/config/
-/cextern/m4/
-/cextern/wcstools-*/
-/cextern/aclocal.m4
-/cextern/config.h
-/cextern/config.log
-/cextern/config.status
-/cextern/configure
-/cextern/libtool
-/cextern/Makefile
-/cextern/Makefile.in
-/cextern/stamp-h1
-/cextern/wcstools-*.tar.gz
-/cextern/src/Makefile
-/cextern/src/Makefile.in
-/cextern/src/aXe_AF2PET
-/cextern/src/aXe_BE
-/cextern/src/aXe_DIRIMAGE
-/cextern/src/aXe_DRZ2PET
-/cextern/src/aXe_DRZPREP
-/cextern/src/aXe_FILET
-/cextern/src/aXe_FRIGEN
-/cextern/src/aXe_FRINGECORR
-/cextern/src/aXe_GOL2AF
-/cextern/src/aXe_GPS
-/cextern/src/aXe_INTPIXCORR
-/cextern/src/aXe_NICBACK
-/cextern/src/aXe_PET2SPC
-/cextern/src/aXe_PETCONT
-/cextern/src/aXe_PETFF
-/cextern/src/aXe_PETIPC
-/cextern/src/aXe_SCALEBCK
-/cextern/src/aXe_SEX2GOL
-/cextern/src/aXe_STAMPS
-/cextern/src/aXe_TEST
-/cextern/src/aXe_TFIT
-
 # Other generated files
 */version.py
 */cython_version.py
